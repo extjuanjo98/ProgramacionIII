@@ -5,18 +5,20 @@
  */
 package pkgfinal;
 
+import java.io.FileNotFoundException;
 import vista.Vista;
 
 /**
  *
- * @author Juanjo Salvo Mateos
+ * @author JJSal
  */
 public class Final {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.FileNotFoundException
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         // TODO code application logic here
         Vista v= new Vista();
         v.runMenu(  "1.-Archivos%n"+
